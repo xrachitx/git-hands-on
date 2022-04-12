@@ -1,4 +1,4 @@
-# Git Hands-On Workshop
+# Greate Git Hands-On Workshop
 
 ## 0. PowerShell Prep
 
