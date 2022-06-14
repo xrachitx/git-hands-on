@@ -2,6 +2,7 @@
 # Wow!. This is updated file
 ## 0. PowerShell Prep
 
+A New line
 ```powershell
 # Let's teach PowerShell some macOS commands
 
