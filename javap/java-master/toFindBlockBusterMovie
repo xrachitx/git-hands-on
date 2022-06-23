@@ -1,0 +1,75 @@
+class movie
+{
+        public static void main(String []args)
+	{
+	actor obj=new actor();
+	obj.abc();
+	obj.xyz();
+	obj.ddlg();
+	obj.getBlockbuster();
+	} 
+
+}
+interface dream
+{
+    void abc();
+}
+interface fox
+{
+    void xyz();
+}
+interface yashraj
+{
+   void ddlg();
+}
+class actor implements dream,fox,yashraj
+{
+    String movie1,movie2,movie3;
+    int x,y,z;
+	public void abc()
+	{
+	movie1="movie 1";
+	x=100;
+	System.out.println("Movie Name:"+movie1);
+        System.out.println("Collection amount:"+x);
+	}
+      public void xyz()
+	{
+	movie2="movie 2";
+	y=200;
+        System.out.println("Movie Name:"+movie2);
+        System.out.println("Collection amount:"+y);
+	}
+      public void ddlg()
+	{
+	movie3="movie 3";
+	z=500;
+	System.out.println("Movie Name:"+movie3);
+        System.out.println("Collection amount:"+z);
+	}
+   public void getBlockbuster()
+   {
+
+      if(x > y && x > z)
+        {
+	    
+            System.out.println("Block buster Movie Name:"+movie1);
+        }
+       if(y > x && y > z)
+        {
+           System.out.println("Block buster Movie Name:"+movie2);
+        }
+       if(z > x && z > y)
+        {
+            System.out.println("Block buster Movie Name:"+movie3);
+        }
+   }
+
+}
+
+
+
+
+
+
+

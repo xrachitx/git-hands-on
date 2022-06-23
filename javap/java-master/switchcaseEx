@@ -1,0 +1,38 @@
+import java.util.*;
+class switchcaseex
+{
+	public static void main(String []args)
+	{
+	 double num1,num2,res;
+	 int ch;
+	 Scanner sc =new Scanner(System.in);
+         System.out.println("Select your choice:");
+	 System.out.println("1.Add\n2.Sub3.Mult\n4.Div");
+	 ch=sc.nextInt();
+	switch(ch)
+	{
+		case 1: System.out.println("Enter num1");
+		num1=sc.nextDouble();
+		System.out.println("Enter num2");
+		num2=sc.nextDouble();
+		res=num1+num2;
+		System.out.println("Add"+res);
+		break;
+		case 2:System.out.println("Enter num1");
+		num1=sc.nextDouble();
+		System.out.println("Enter num2");
+		num2=sc.nextDouble();
+		res=num1-num2;
+		System.out.println("Add"+res);
+		break;
+		default:
+			break;
+		
+	}
+	 
+	
+		
+	}
+
+
+}
